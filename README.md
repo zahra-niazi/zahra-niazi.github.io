@@ -1,8 +1,3 @@
----
-title: "About"
-permalink: "/about/"
-layout: page
----
 <article>
     <header><h1>Hi this is me</h1></header>
     <p>
