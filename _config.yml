@@ -1,6 +1,6 @@
 title: "Zahra Niazi"
 author: "Zahra Niazi"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "<b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md", title="About"}
+  - {file: "README.md"}
   - {file: "projects.html"}
   - {file: "CV.md"}
 
