@@ -1,0 +1,32 @@
+{%- assign award = data.award %}
+{%- if award and award.show %}
+<section class="award" style="order: {{ award.order | default: 1 }}">
+  <div class="section-title">
+    <i class="section-icon fa-solid fa-award"></i>
+    <h2>{{ award.title }}</h2>
+  </div>
+
+  <div class="section-content">
+    {%- if award.description.size > 0 %}
+    <div class="description markdown">
+      {{ award.description | markdownify }}
+    </div>
+    {%- endif %}
+
+    {%- if award.items %}
+    <div class="items">
+      {%- for item in award.items %}
+      <div class="item">
+        <div class="project-name">
+          <span>{{ item.name }}</span>
+          {%- if item.grade %}
+          <small>[{{ item.grade }}]</small>
+          {%- endif %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+    {%- endif %}        
+  </div>
+</section>
+{%- endif %}

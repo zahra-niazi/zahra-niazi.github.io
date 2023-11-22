@@ -1,6 +1,6 @@
 title: "Zahra Niazi"
 author: "Zahra Niazi"
-description: "<b style=\"color: #f45;\">&lt;3</b>"
+description:
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -12,6 +12,11 @@ show_excerpts: false        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
+
+# Sass setting
+sass:
+  sass_dir: _sass
+  style:    compressed
 
 # Menu
 
@@ -30,3 +35,18 @@ comments:
 
 plugins:
  - jekyll-feed
+
+mathjax: true
+
+open: true 
+text_direction: ltr         # text direction, 'ltr' or 'rtl'
+theme_color: "#204097"      # your favorite theme color
+contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
+section_icon: true          # section title icon, true or false
+section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
+section_align: start        # section title align, 'start', 'end' or 'center'
+section_line: dashed        # section title line, 'solid', 'dashed' or 'none'
+section_background: false   # section title backound, 'true' or 'false'
+skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
+link_icon: true             # show link icon, 'true' or 'false'
+site_footer: true           # show site footer, 'true' or 'false'

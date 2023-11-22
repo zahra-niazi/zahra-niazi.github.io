@@ -1,0 +1,355 @@
+basic:
+  name: Zahra Niazi                      # name
+  title:            # job title
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.jpg # avatar file path
+
+contact:
+  # meta
+  location: # location
+  email: zahra.niazi2001@gmail.com    # email address
+  phone: +98-915-257-1646 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: zahra-niazi.github.io     # site URL without schema, like example.com, will automatically prepand "https://"
+
+  gender:                  # gender or pronoun
+  birthday:                # birthday
+  nationality:             # nationality
+  visa:                    # passport visa
+  drivinglicense:          # driving licence
+
+  # contact
+  wechat:                  # username
+  whatsapp:                # 8611122223333     | https://wa.me/8611122223333
+  telegram:                # username          | https://t.me/username
+  messenger:               # username          | https://m.me/username
+  line:                    # lineid            | https://line.me/R/ti/p/@lineid
+  viber:                   # username          | https://vb.me/username
+  threema:                 # userid            | https://threema.id/userid
+
+  # programmer
+  github: zahra-niazi                 # username          | https://github.com/username
+  gitlab:                  # username          | https://gitlab.com/username
+  bitbucket:               # username          | https://bitbucket.com/username
+  stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
+  leetcode:                # username          | https://leetcode.com/username
+  codeforces:              # username          | https://codeforces.com/profile/username
+  codewars:                # username          | https://www.codewars.com/users/username
+  codepen:                 # username          | https://codepen.io/username
+  tryhackme:               # username          | https://tryhackme.com/p/username
+
+  # academic
+  googlescholar:           # username          | https://scholar.google.com/citations?user=username
+  researchgate:            # username          | https://www.researchgate.net/profile/username
+  kaggle:                  # username          | https://www.kaggle.com/username
+  orcid:                   # id                | https://orcid.org/id
+  figshare:                # name/id           | https://figshare.com/authors/name/id
+
+  # writer
+  devto:                   # username          | https://dev.to/username
+  medium:                  # username          | https://medium.com/@username
+  wordpress:               # username          | https://username.wordpress.com
+  blogger:                 # username          | https://username.blogspot.com
+  wikipedia:               # username          | https://www.wikipedia.org/wiki/User:username
+
+  # designer
+  figma:                   # username          | https://www.figma.com/@username
+  behance:                 # username          | https://www.behance.net/username
+  dribble:                 # username          | https://dribbble.com/username
+  artstation:              # username          | https://www.artstation.com/username
+
+  # other cv
+  linkedin: zahra-niaziii               # username          | https://linkedin.com/in/username
+  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  xing:                    # username          | https://www.xing.com/profile/username
+  fiverr:                  # username          | https://www.fiverr.com/username
+  freelancer:              # username          | https://www.freelancer.com/u/username
+
+  # social media
+  twitter:                 # username          | https://twitter.com/username
+  mastodon:                # username@server
+  instagram:               # username          | https://instagram.com/username
+  unsplash:                # username          | https://unsplash.com/@username
+  _500px:                  # username          | https://500px.com/p/username
+  youtube: zahraniazii                # username          | https://www.youtube.com/@username
+  tiktok:                  # username          | https://www.tiktok.com/@username
+  quora:                   # username          | https://www.quora.com/profile/username
+  zhihu:                   # username          | https://www.zhihu.com/people/username
+  goodreads:               # username          | https://www.goodreads.com/user/show/username
+  strava:                  # useid             | https://www.strava.com/athletes/userid
+
+
+education:
+  show: true
+  order: 1
+  title: Education
+  items:
+    - institution: Ferdowsi University of Mashhad
+      link: '#'
+      date: 2019 - 2023
+      major: Bachelor of Science, Computer Engineering
+      degree: Bachelor
+      description: |
+        + GPA: 3.58/4 (17.40/20.00)
+        + Ranked in the top 12% based on the GPA over the first three years of the enrolling class of 2019.
+
+interest:
+  show: true
+  order: 2
+  title: Research Interests
+  items:
+    - item: Robotics
+    - item: Reinforcement Learning
+    - item: Event-based Vision Applications
+
+project:
+  show: true
+  order: 3
+  title: Projects
+
+  items:
+    - name: Bachelor's Final Project Line Matching and Event Explanation in Event Camera Streams
+      link: 
+      tags:
+      date: Spring 2023
+      description: |        
+        + Generated synthetic data using a simulator and ESIM to capture events and frames. 
+        + Implemented line detection and matching algorithms for motion tracking.
+        + Successfully explained events by associating them with specific lines and achieved event stream segmentation.
+        + Demonstrated problem-solving skills in overcoming research challenges.
+
+    - name: Exploration of 2D/Visual SLAM and Autonomous Navigation with Parallax Eddie Robot
+      link: 'https://github.com/zahra-niazi/robotics-spring2023/tree/main/Eddie'
+      tags: 
+      date: Spring 2023
+      description: |
+        + Explored 2D and Visual SLAM with Eddie, a versatile differential drive robot. 
+        + Conducted a comprehensive analysis of Eddie's hardware, software, and firmware, including overcoming challenges in setting up the Kinect sensor. 
+        + Delved into the mathematical intricacies of Eddie's kinematic model to obtain precise odometry data. 
+        + Tested 2D SLAM and ROS2 navigation techniques for mapping and successful robot navigation. 
+        + Ultimately, selected RTABMap for visual SLAM and evaluated its performance with Eddie.
+
+    - name: Neural Networks and Deep Learning Projects
+      link: 'https://github.com/zahra-niazi/dl-spring2023'
+      tags: 
+      date: Spring 2023
+      description: |
+        + Unsupervised Feature Learning and Transfer Analysis in Computer Vision: Conducted a comprehensive evaluation of unsupervised feature learning methods using CIFAR-10 and DomainNet datasets, followed by an investigation into transfer learning in computer vision with a focus on adapting to new domains.
+        + RNN-Based Sentiment Classification and Generalization Analysis: Developed and assessed RNN models for sentiment classification, examining architectural variations and Word2Vec embeddings. Analyzed model generalization by retraining on a modified dataset and evaluating performance on IMDB data.
+        + Deep Learning for Image Classification and Feature Extraction: Trained ResNet, DenseNet, and VGG16 neural networks on dog and cat datasets, optimizing accuracy by experimenting with different percentages of frozen layers. Leveraged the networks as feature extractors for data classification using random forests.
+        + MNIST Neural Network Classification and Adaptation: Developed and fine-tuned a neural network for MNIST classification, including layer and optimizer experimentation. Evaluated key metrics and assessed network adaptability to new classes, with an outlook on potential outlier detection strategies.
+
+    - name: ROS2 and Gazebo
+      link: 'https://github.com/zahra-niazi/robotics-spring2023/'
+      tags: 
+      date: Spring 2023
+      description: |
+        + Step by step ROS2 course consisting of guided tutorials and exercises based on official ROS2 and Gazebo documentations.
+
+    - name: Reinforcement Learning Projects
+      link: 
+      tags: 
+      date: Spring 2023
+      description: |
+        + Dynamic Strategies in Frozen Lake: Executed value and policy surveys in GymOpenAI's Frozen Lake, exploring factors like discount variations and non-deterministic problem-solving, visualizing outcomes with Matplotlib.
+        + Algorithmic Exploration in Taxi World: Implemented Q-Learning, Monte Carlo, and Sarsa algorithms in Gym's Taxi environment. Visualized diverse gamma scenarios, charted cumulative rewards, and discerned differences between Q-Learning and Sarsa approaches.
+
+    - name: Computer Vision Projects
+      link: 'https://github.com/zahra-niazi/cv-fall2022/'
+      tags: 
+      date: Fall 2022
+      description: |
+        + In depth computer vision projects. 
+
+    - name: Machine Learning Projects
+      link: 'https://github.com/zahra-niazi/ml-spring2022/'
+      tags: 
+      date: Spring 2022
+      description: |
+        + In depth machine learning projects. 
+
+    - name: Artificial Intelligence Projects
+      link: 'https://github.com/zahra-niazi/ai-fall2021/'
+      tags: 
+      date: Fall 2021
+      description: |
+        + In depth artificial intelligence projects. 
+
+evaluation:
+  show: true
+  order: 4
+  title: Selected Courses
+  items: 
+    - course: Reinforcement Learning (Graduate Course) 
+      grade: 4/4
+    - course: Neural Networks (Graduate Course)
+      grade: 3/4
+    - course: Robotics
+      grade: 4/4
+    - course: Fundamentals of Computer Vision
+      grade: 4/4
+    - course: Fundamentals of Computational Intelligence
+      grade: 4/4
+    - course: Fundamentals and Applications of Artificial Intelligence
+      grade: 3/4
+      
+skill:
+  show: true
+  order: 5
+  title: Technical Skills
+  groups:
+    - name: Programming Languages
+      item:
+        - Python
+        - Java
+        - C/C++
+        - SQL
+        - Bash
+        - JavaScript
+    - name: Libraries
+      item:
+        - Tensorflow
+        - Keras
+        - PyTorch
+        - OpenCV
+        - scikit-learn
+        - NLTK
+        - Gym/Gymnasium
+    - name: Robotics Software and Libraries
+      item:
+        - ROS/ROS2
+        - Gazebo
+        - MoveIt
+    - name: Environments and Tools
+      item:
+        - Unix/Linux
+        - Git
+        - LaTeX
+
+language:
+  show: true
+  order: 6
+  title: Language Skills
+  items:
+    - idiom: Persian
+      level: Bilingual Proficiency
+    - idiom: English
+      level: Full Professional Proficiency (TOEFL iBT to be taken on Dec 16th)
+
+experience:
+  show: true
+  order: 7
+  title: Teaching Experience
+  items:
+    - company: Teacher's Assistant
+      link: 
+      tags: 
+      date: Fall 2021
+      role: Data Structures
+      location: Ferdowsi University of Mashhad
+      description: |
+        + Professor: Dr Haleh Amintoosi
+
+organization:
+  show: true
+  order: 8
+  title: Volunteer Experience
+  items:
+    - company: 13th International Conference on Computer and Knowledge Engineering (IEEE-indexed)
+      link: 'https://iccke.um.ac.ir/2023'
+      tags: 
+      date: 2023
+      role: Member of Executive Committee
+      location: Ferdowsi University of Mashhad
+
+    - company: 12th International Conference on Computer and Knowledge Engineering (IEEE-indexed)
+      link: 'https://ieeexplore.ieee.org/xpl/conhome/9959861/proceeding'
+      tags: 
+      date: 2022
+      role: Member of Executive Committee
+      location: Ferdowsi University of Mashhad
+
+certificate:
+  show: true
+  order: 9
+  title: Online Courses
+  items:
+    - name: Deep Learning Specialization
+      issuer: Coursera
+      date: 
+      link: 'https://coursera.org/share/0dfbe6b3440272e61ac0586fc5d5377c'
+
+    - name: Deep Reinforcement Learning
+      issuer:
+      date:
+      link: 'https://rail.eecs.berkeley.edu/deeprlcourse/'
+      description: |
+        CS 285 UC Berkeley
+
+    - name: Introduction to Robotics
+      issuer:
+      date:
+      link: 'https://see.stanford.edu/Course/CS223A'
+      description: |
+        CS223A Stanford University
+
+award:
+  show: true
+  order: 10
+  title: Awards & Honors
+  items:
+    - name: Ranked 14th among 109 students and selected as the Exceptionally Talented Student in the undergraduate program, 2023.
+    - name: Ranked amongst the top 1.5% of 170,000 participants in the Iranian University Entrance Exam 2019.
+
+publication:
+  show: true
+  order: 11
+  title: Hobbies & Interests
+  items:
+    - title: Sports
+      authors:
+      conference: Played basketball for 6 years, participating in regional competitions.
+      link:
+    - title: Guitar
+      authors: 
+      conference: 5 years of playing the classical guitar with regular lessons and practice.
+      link:
+    - title: Passionate about
+      authors: 
+      conference: Learning about the human brain.
+      link:
+
+reference:
+  show: true
+  order: 12
+  title: References
+  items:
+    - name: Dr Ahad Harati
+      link: 'https://scholar.google.com/citations?user=3Y_Nwm0AAAAJ&hl=en'
+      title: Associate Professor
+      institution: Ferdowsi University Of Mashhad
+      address: 
+      email: a.harati@um.ac.ir
+      phone:
+      googlescholar:  
+      description: |
+
+    - name: Dr Haleh Amintoosi
+      link: 'https://scholar.google.com.au/citations?user=UsoEbboAAAAJ&hl=en'
+      title: Associate Professor
+      institution: Ferdowsi University Of Mashhad
+      address: 
+      email: amintoosi@um.ac.ir
+      phone:
+      googlescholar:
+      
+    - name: Dr Behshid Behkamal
+      link: 'https://scholar.google.com/citations?user=ndN0LZwAAAAJ&hl=en'
+      title: Assistant Professor
+      institution: Ferdowsi University Of Mashhad
+      address: 
+      email: behkamal@um.ac.ir
+      phone:
+      googlescholar:
+
+close: <strong>Sorry, my resume has been hidden.</strong>
