@@ -21,8 +21,9 @@ sass:
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "README.md"}  
   - {file: "projects.html"}
-  - {file: "CV.md"}
+  - {file: "cv.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/zahra-niazi"}
