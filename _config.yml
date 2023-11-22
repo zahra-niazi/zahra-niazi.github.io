@@ -21,7 +21,6 @@ sass:
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md"}  
   - {file: "projects.html"}
   - {file: "cv.html"}
 
